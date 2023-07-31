@@ -73,4 +73,4 @@ Pushing developers to learn it even harder (and cruel, their life is already rea
 
 ### Still not convinced?
 
-Check this: [“My personal reason about why I started developing Diginext”](About%20&%20credits%20e057788cfc6e451dabbae4817657c5a7.md)
+Check this: [“My personal reason about why I started developing Diginext”](about-and-credits.md)
