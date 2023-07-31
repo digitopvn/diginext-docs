@@ -163,7 +163,7 @@ jobs:
         uses: docker/setup-buildx-action@v2
         id: buildx
           
-      - name: Build & push to Docker Hub (main)
+      - name: Build & push to Docker Hub (beta)
         uses: docker/build-push-action@v4
         with:
           context: .
