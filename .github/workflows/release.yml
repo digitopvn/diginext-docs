@@ -122,7 +122,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: Dockerfile
+          file: Dockerfile.dev
           push: true
           tags: digitop/diginext-docs:${{env.LATEST_TAG}},digitop/diginext-docs:latest
           # platforms: |
@@ -167,7 +167,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: Dockerfile
+          file: Dockerfile.dev
           push: true
           tags: digitop/diginext-docs:${{env.LATEST_TAG}},digitop/diginext-docs:beta
           # platforms: |
@@ -233,8 +233,6 @@ jobs:
         run: echo LATEST_TAG=$(git describe --tags `git rev-list --tags --max-count=1`) >> $GITHUB_ENV
       - run: echo $LATEST_TAG
 
-      - run: echo "${{ github.ref }}"
-      - run: echo "${{ github.ref_name }}"
       - run: mkdir ~/.kube
       - run: echo "${{ secrets.KUBECONFIG_DEV }}" >> ~/.kube/config
 
@@ -248,5 +246,5 @@ jobs:
       - run: kubectl config current-context
       - run: kubectl config use-context topgroup-k3s
 
-      - name: Set image to [topgroup.diginext.site] deployment
+      - name: Set image to [docs-beta.diginext.site] deployment
         run: kubectl --context=topgroup-k3s -n diginext-docs set image deployment/diginext-docs diginext-docs=digitop/diginext-docs:$LATEST_TAG
