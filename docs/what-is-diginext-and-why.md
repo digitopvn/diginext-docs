@@ -1,8 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Introduction
+# What is Diginext & why?
+
+First thing first.
 
 ## Infrastructure is hard. Kubernetes is harder.
 
@@ -13,13 +15,15 @@ Pushing developers to learn it even harder (and cruel, their life is already rea
 > *Focus on building apps, shipping fast, and shinning, and leave your cloud infrastructure to Diginext.*
 > 
 
-:::info 
-👉 `dx` also means **Developer Experience**, and this is our number one goal - create the best experience for developers.
-:::
+<aside>
+👉 `dx` also means ***Developer Experience***, and this is our number one goal - create the best experience for developers.
 
-### *“Make coding great again”*
+</aside>
 
-Made for any programming languages, for projects big and small, developers should only bring their code, and **Diginext** handles the rest.
+## *“Make coding great again”*
+
+> `dx` also means **Developer Experience**, and this is my **number one priority** - create the best experience for developers.
+> 
 
 ## Features
 
@@ -66,3 +70,7 @@ Made for any programming languages, for projects big and small, developers shoul
 - Overview of your organization, your teams, your members, your projects, your apps and your investment in cloud resources.
 - Better understanding about what your team is doing.
 - Especially if you are poor, like us, but still want to adopt the mighty Kubernetes, `dx` is for you.
+
+### Still not convinced?
+
+Check this: [“My personal reason about why I started developing Diginext”](About%20&%20credits%20e057788cfc6e451dabbae4817657c5a7.md)
