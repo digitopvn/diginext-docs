@@ -249,4 +249,4 @@ jobs:
       - run: kubectl config use-context topgroup-k3s
 
       - name: Set image to [topgroup.diginext.site] deployment
-        run: kubectl --context=topgroup-k3s -n diginext-docs set image deployment/diginext-docs diginext-docs=digitop/diginext:$LATEST_TAG
+        run: kubectl --context=topgroup-k3s -n diginext-docs set image deployment/diginext-docs diginext-docs=digitop/diginext-docs:$LATEST_TAG
