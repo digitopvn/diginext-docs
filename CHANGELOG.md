@@ -1,3 +1,10 @@
+# [1.0.0-beta.2](https://github.com/digitopvn/diginext-docs/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2023-07-31)
+
+
+### Bug Fixes
+
+* **release flow:** export latest tag to docker ([36f9095](https://github.com/digitopvn/diginext-docs/commit/36f90957fdb7bb5b5ecac27ba13085b526c50c76))
+
 # 1.0.0-beta.1 (2023-07-31)
 
 
