@@ -16,7 +16,9 @@
 		"typecheck": "tsc",
 		"check-types": "tsc --noEmit --pretty",
 		"format": "prettier . --write",
-		"commit": "git add . && cz && git push origin"
+		"commit": "git add . && cz && git push origin",
+		"prepare": "husky install || true",
+		"postinstall": "husky install || true"
 	},
 	"dependencies": {
 		"@docusaurus/core": "2.4.1",
@@ -38,7 +40,9 @@
 		"@docusaurus/theme-classic": "^2.4.1",
 		"@docusaurus/types": "^2.4.1",
 		"@semantic-release/changelog": "^6.0.3",
+		"@semantic-release/commit-analyzer": "^10.0.1",
 		"@semantic-release/git": "^10.0.1",
+		"@semantic-release/release-notes-generator": "^11.0.4",
 		"@tsconfig/docusaurus": "^1.0.5",
 		"@types/node": "^20.4.5",
 		"commitizen": "^4.3.0",
@@ -68,13 +72,24 @@
 	},
 	"release": {
 		"branches": [
-			"beta",
-			"dev/boss"
+			"main",
+			{
+				"name": "beta",
+				"prerelease": true
+			}
 		],
 		"plugins": [
 			"@semantic-release/commit-analyzer",
 			"@semantic-release/release-notes-generator",
-			"@semantic-release/changelog"
+			"@semantic-release/changelog",
+			"@semantic-release/git",
+			[
+				"@semantic-release/github",
+				{
+					"successComment": false,
+					"failTitle": false
+				}
+			]
 		]
 	},
 	"engines": {
