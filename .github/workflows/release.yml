@@ -103,6 +103,11 @@ jobs:
           name: build-artifact
           path: build
 
+      - name: Checkout latest release tag
+        run: echo LATEST_TAG=$(git describe --tags `git rev-list --tags --max-count=1`) >> $GITHUB_ENV
+      - run: echo $LATEST_TAG
+      - run: echo ${{env.LATEST_TAG}}
+
       - name: Login to Docker Hub
         uses: docker/login-action@v2
         with:
@@ -143,6 +148,10 @@ jobs:
         with:
           name: build-artifact
           path: build
+
+      - name: Checkout latest release tag
+        run: echo LATEST_TAG=$(git describe --tags `git rev-list --tags --max-count=1`) >> $GITHUB_ENV
+      - run: echo $LATEST_TAG
 
       - name: Login to Docker Hub
         uses: docker/login-action@v2

@@ -59,6 +59,9 @@ const config = {
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
+			colorMode: {
+				defaultMode: "dark"
+			},
 			// Replace with your project's social card
 			image: "img/docusaurus-social-card.jpg",
 			navbar: {
@@ -99,15 +102,15 @@ const config = {
 						items: [
 							{
 								label: "Stack Overflow",
-								href: "https://stackoverflow.com/questions/tagged/docusaurus",
+								href: "https://stackoverflow.com/questions/tagged/diginext",
 							},
 							{
 								label: "Discord",
-								href: "https://discordapp.com/invite/docusaurus",
+								href: "https://discord.gg/xMuW5pN2Kn",
 							},
 							{
 								label: "Twitter",
-								href: "https://twitter.com/docusaurus",
+								href: "https://twitter.com/goon_nguyen",
 							},
 						],
 					},
@@ -120,7 +123,7 @@ const config = {
 							},
 							{
 								label: "GitHub",
-								href: "https://github.com/facebook/docusaurus",
+								href: "https://github.com/digitopvn/diginext",
 							},
 						],
 					},
