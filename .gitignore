@@ -20,3 +20,5 @@ yarn-debug.log*
 yarn-error.log*
 
 docker-compose.dev.yaml
+deployment.yaml
+deployment.beta.yaml
