@@ -9,6 +9,7 @@ on:
 
 # ENVIRONMENT VARIABLES
 env:
+  GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
   BRANCH_NAME: ${{ github.head_ref || github.ref }} 
 
 # CI/CD STEPS
@@ -66,6 +67,8 @@ jobs:
         run: pnpm build
 
       - name: Release GITHUB package
+        env:
+          GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
         run: npx semantic-release
       
       - name: Update "package.json" version
