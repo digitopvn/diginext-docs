@@ -10,6 +10,8 @@ on:
       - "!main"         # exclude "main"
       - "!beta"         # exclude "beta"
       - "!prerelease"   # exclude "prerelease"
+      - "!deploy"       # exclude "deploy"
+      - "!deploy/*"     # exclude "deploy/*"
 
 # ENVIRONMENT VARIABLES
 env:
