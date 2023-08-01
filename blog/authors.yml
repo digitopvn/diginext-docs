@@ -1,17 +1,17 @@
-endi:
-    name: Endilie Yacop Sucipto
-    title: Maintainer of Docusaurus
-    url: https://github.com/endiliey
-    image_url: https://github.com/endiliey.png
+goon:
+    name: Goon Nguyen
+    title: Author of Diginext, CTO @ Digitop
+    url: https://github.com/mrgoonie
+    image_url: https://github.com/mrgoonie.png
 
-yangshun:
-    name: Yangshun Tay
-    title: Front End Engineer @ Facebook
-    url: https://github.com/yangshun
-    image_url: https://github.com/yangshun.png
+teexii:
+    name: Tam Lam
+    title: Interactive Engineer @ Digitop
+    url: https://github.com/teexiii
+    image_url: https://github.com/teexiii.png
 
-slorber:
-    name: Sébastien Lorber
-    title: Docusaurus maintainer
-    url: https://sebastienlorber.com
-    image_url: https://github.com/slorber.png
+thinhfromtop:
+    name: Thinh Nguyen
+    title: Maintainer of Diginext, Back-end Engineer @ Digitop
+    url: https://github.com/thinhfromtop
+    image_url: https://github.com/thinhfromtop.png

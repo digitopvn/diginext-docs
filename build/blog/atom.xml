@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.diginext.site/blog</id>
+    <title>Diginext Docs Blog</title>
+    <updated>2021-08-26T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://docs.diginext.site/blog"/>
+    <subtitle>Diginext Docs Blog</subtitle>
+    <icon>https://docs.diginext.site/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://docs.diginext.site/blog/welcome</id>
+        <link href="https://docs.diginext.site/blog/welcome"/>
+        <updated>2021-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Woohoo, we've just spinned up the documentation & blog! It's powered by the amazing Docusaurus blogging features.]]></summary>
+        <content type="html"><![CDATA[<p>Woohoo, we've just spinned up the documentation &amp; blog! It's powered by the amazing <a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a>.</p><p><img loading="lazy" alt="diginext banner" src="/assets/images/dx-banner-78659f9557365be44b3736492cb4023d.png" width="920" height="500" class="img_Ytbv"></p><p>More useful articles are going to be published here, stay tuned!</p>]]></content>
+        <author>
+            <name>Goon Nguyen</name>
+            <uri>https://github.com/mrgoonie</uri>
+        </author>
+        <category label="welcome" term="welcome"/>
+        <category label="hello" term="hello"/>
+        <category label="diginext" term="diginext"/>
+    </entry>
+</feed>

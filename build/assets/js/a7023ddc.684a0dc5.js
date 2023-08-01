@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdiginext=self.webpackChunkdiginext||[]).push([[1713],{3457:e=>{e.exports=JSON.parse('[{"label":"welcome","permalink":"/blog/tags/welcome","count":1},{"label":"hello","permalink":"/blog/tags/hello","count":1},{"label":"diginext","permalink":"/blog/tags/diginext","count":1}]')}}]);

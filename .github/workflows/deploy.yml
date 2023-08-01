@@ -1,0 +1,114 @@
+name: Deploy Workflow
+
+# TRIGGERS
+on:
+  push:
+    branches:
+      # - deploy/*
+      - main
+
+# ENVIRONMENT VARIABLES
+env:
+  GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
+  BRANCH_NAME: ${{ github.head_ref || github.ref }}
+
+# CI/CD STEPS
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.head_commit.message, 'ci(') == false
+    
+    # Add "id-token" with the intended permissions.
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+          token: ${{ secrets.CI_GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "lts/*"
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        id: pnpm-install
+        with:
+          version: 8
+          run_install: false
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - name: Setup pnpm cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install package dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Run build
+        env:
+          GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
+        run: pnpm build
+
+      - name: Release GITHUB package
+        env:
+          GITHUB_TOKEN: ${{ secrets.CI_GITHUB_TOKEN }}
+        run: npx semantic-release
+      
+      - name: Update "package.json" version
+        run: pnpm pkg-version
+
+      - name: Commit and push latest "package.json" file
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore(package.json): update version [skip ci]"
+          commit_options: '--allow-empty --no-verify --signoff'
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: build-artifact
+          path: build
+
+  deploy:
+    name: Deploy to [docs.diginext.site]
+    runs-on: ubuntu-latest
+    needs: [build]
+    if: always() && !cancelled() && !failure() && contains(github.ref, 'main')
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: build-artifact
+          path: build
+
+      - name: Deploy to Diginext
+        uses: digitopvn/diginext-actions@v0
+        with:
+          dx_version: 3.21.2-prerelease.7
+          workspace_url: https://topgroup-v2.diginext.site
+          api_key: ${{ secrets.DX_API_KEY }}
+          cluster: digitop-cluster
+          registry: digitopdockerhub
+          deploy_env: prod
+          port: "3001"

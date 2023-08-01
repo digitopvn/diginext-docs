@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdiginext=self.webpackChunkdiginext||[]).push([[4887],{3567:e=>{e.exports=JSON.parse('{"label":"diginext","permalink":"/blog/tags/diginext","allTagsPath":"/blog/tags","count":1}')}}]);

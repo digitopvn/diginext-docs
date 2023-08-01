@@ -2,46 +2,69 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+![diginext banner](/img/dx-banner.png)
 
-## Getting Started
+## Infrastructure is hard. Kubernetes is harder.
 
-Get started by **creating a new site**.
+Pushing developers to learn it even harder (and cruel, their life is already really tough nowadays)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+***Developers should not be frustrated by deploying apps to the infrastructure or bothering DevOps engineers for help. They should fully focus on developing apps and not need to understand servers, domains, or other infrastructure-related tasks.***
 
-### What you'll need
+> *Focus on building apps, shipping fast, and shinning, and leave your cloud infrastructure to Diginext.*
+> 
 
--   [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-    -   When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+:::info 
+👉 `dx` also means **Developer Experience**, and this is our number one goal - create the best experience for developers.
+:::
 
-## Generate a new site
+### *“Make coding great again”*
 
-Generate a new Docusaurus site using the **classic template**.
+Made for any programming languages, for projects big and small, developers should only bring their code, and **Diginext** handles the rest.
 
-The classic template will automatically be added to your project after you run the command:
+## Features
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+- One-click deploy to any Kubernetes clusters of any cloud providers
+    - ✅ GCP
+    - ✅ DigitalOcean
+    - ✅ Metal K8S cluster
+    - 🔜 AWS
+    - 🔜 Azure
+- Simple deploy of any public or private Docker image
+- Generated domains & auto-provisioned SSL certificates.
+- Application rollback to previously deployed versions
+- Overcoming Kubernetes complexity by stripping Kubernetes away
+- Start developing new applications with frameworks & boilerplates
+- Manage, auto-backup & restore databases:
+    - Postgres
+    - MySQL
+    - MongoDB
+- Zero-downtime deploy and health checks
+- Monitor CPU, RAM, and Network usage per deployment, per node & per cluster
+- Marketplace for one click add-ons (e.g. MongoDB, Redis, PostgreSQL)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### For Developers
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+- Fully focus on development
+- Deploy apps to any Kubernetes cluster (without understanding Kubernetes 🤯 ).
+- Enhance your daily basis workflows with additional helpful commands for `k8s`, `git` and `database`
+- Start new project quickly with a set of useful Frameworks.
 
-## Start your site
+### For DevOps
 
-Run the development server:
+- If you’re managing multiple cluster, `dx` is definitely for you.
+- Enhance your daily basis tasks with helpful commands to manage clusters, namespaces, secrets, deployments, workloads, etc…
+- Monitoring your infrastructure with ease!
+    - Manage Kubernetes clusters
+    - Manage, backup & restore databases: MongoDB, MariaDB, PostgreSQL,…
+- Automations, notifications, alerts,…
 
-```bash
-cd my-website
-npm run start
-```
+### For Tech Leads, Managers, Company & Startups
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- Manage & monitoring your projects easily.
+- Overview of your teams & cloud resources.
+- Faster diagnose, better logs, fewer stresses.
+- Overview of your organization, your teams, your members, your projects, your apps and your investment in cloud resources.
+- Better understanding about what your team is doing.
+- Especially if you are poor, like us, but still want to adopt the mighty Kubernetes, `dx` is for you.
