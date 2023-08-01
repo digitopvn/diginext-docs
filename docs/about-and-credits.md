@@ -47,8 +47,8 @@ I need the answer, and if my ambition becomes true, it could be the answer, I wi
 ## Get in touch
 
 - Email: [duy@wearetopgroup.com](mailto:duy@wearetopgroup.com)
+- Github: https://github.com/mrgoonie
 - Twitter: https://twitter.com/goon_nguyen
 - Facebook: https://fb.com/mrgoonie
 - Linkedin: [https://www.linkedin.com/in/duy-nguyễn-39aba530/](https://www.linkedin.com/in/duy-nguy%E1%BB%85n-39aba530/)
-- Github: https://github.com/mrgoonie
 - Dev.to: https://dev.to/mrgoonie

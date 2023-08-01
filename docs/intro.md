@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Introduction
 
+![diginext banner](/img/dx-banner.png)
+
 ## Infrastructure is hard. Kubernetes is harder.
 
 Pushing developers to learn it even harder (and cruel, their life is already really tough nowadays)

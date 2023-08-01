@@ -1,20 +1,20 @@
 ---
-sidebar_position: 12
+sidebar_position: 1
 ---
 
-# Contributing
+# Overview
 
 The following is a set of guidelines for contributing to **Diginext**. Please spend several minutes reading these guidelines before you create an issue or pull request.
 
 ## Architecture
 
-First thing first, study our [Architecture](https://www.notion.so/Architecture-21a0aa2538354d879ab5b29594abe433?pvs=21) to understand how the project is structured.
+First thing first, study our [Architecture](/docs/architecture) to understand how the project is structured.
 
 ## Code of Conduct
 
-We have adopted a [Code of Conduct](notion://www.notion.so/CODE_OF_CONDUCT.md) that we expect project participants to adhere to. Please read the full text so that you can understand what actions will and will not be tolerated.
+We have adopted a [Code of Conduct](/docs/contributing/code-of-conduct) that we expect project participants to adhere to. Please read the full text so that you can understand what actions will and will not be tolerated.
 
-[Contributor Covenant Code of Conduct](https://www.notion.so/Contributor-Covenant-Code-of-Conduct-5ea910a5be514bafbe322a1a3400642a?pvs=21)
+[Contributor Covenant Code of Conduct](/docs/contributing/code-of-conduct)
 
 ## Open Development
 
@@ -22,7 +22,7 @@ All work on Diginext happens directly on [GitHub](https://github.com/digitopvn/d
 
 ***Wanna give me a hand?*** 
 
-Get started here: [Development Workflow](https://www.notion.so/Development-Workflow-ba1acb0ddc7543fab3d8ec9a28479d7d?pvs=21) 
+Get started here: [Development Workflow](/docs/contributing/development-workflow) 
 
 ## Branch Organization
 
@@ -49,7 +49,7 @@ If you are an active contributor and are willing to work with Diginext in our op
 
 [Pull Request](https://www.notion.so/Pull-Request-f4a5bbbc6f4c46099ca73c98c9dc3bb9?pvs=21)
 
-[Development Workflow](https://www.notion.so/Development-Workflow-ba1acb0ddc7543fab3d8ec9a28479d7d?pvs=21)
+[Development Workflow](/docs/contributing/development-workflow)
 
 [Development Environment - Initial Setup](https://www.notion.so/Development-Environment-Initial-Setup-a0fd98b3c0194c31820e436c3c057fe0?pvs=21)
 

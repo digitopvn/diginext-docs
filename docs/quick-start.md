@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 4
 ---
 
 # Quick start
@@ -87,7 +87,7 @@ dx deploy
 By default, it will deploy your app to the `development` environment.
 
 <aside>
-👉 Learn more about app’s [deploy environment](https://www.notion.so/Deploy-Environments-268c45ad8d8949d0aaa996732c256676?pvs=21) here.
+👉 Learn more about app’s [deploy environment](/docs/deployment/deploy-environment) here.
 
 </aside>
 

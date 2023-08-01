@@ -197,4 +197,4 @@ spec:
 
 Take a look closely at the `securityContext` and `volumeMounts` of the deployment, you will see it’s mounting the `/var/run/docker.sock` at a host path into the container, then running it in `priviledged` mode with `root` user. **This is super dangerous!**
 
-### You need to understand the security risk: [Security](https://www.notion.so/Security-51f72063bcd0461b93258af6d9459bb4?pvs=21)
+### You need to understand the security risk: [Security](/security.md)

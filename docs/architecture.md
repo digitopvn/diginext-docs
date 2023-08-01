@@ -14,19 +14,19 @@ This document provides a high level overview of Diginext's architecture.
 
 is the ***developer-friendly*** tool to help you communicate with the build server and also assists you in daily basis development tasks, such as `git` and `deploy` apps, etc.
 
-<aside>
-👉 Learn more about `dx` [Command Line Interface (CLI)](https://www.notion.so/Command-Line-Interface-CLI-9a7cb013548e485582c002658822f8e4?pvs=21)
+:::info
+👉 Learn more about `dx` [Command Line Interface (CLI)](/docs/cli/cli-usage)
 
-</aside>
+:::
 
 ## Diginext Server (or Workspace Dashboard)
 
 is where your app will be built and deployed to the destination clusters, and also is where you manage all of your cloud resources.
 
-<aside>
-👉 Learn more about `dx` [Workspace Dashboard](https://www.notion.so/Workspace-Dashboard-2e5d3132b7d144fab451dbcddcd27560?pvs=21)
+:::info
+👉 Learn more about `dx` [Workspace Dashboard](/docs/dashboard/workspace)
 
-</aside>
+:::
 
 ### Workspace
 

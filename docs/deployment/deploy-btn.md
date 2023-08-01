@@ -11,7 +11,9 @@ sidebar_position: 2
 ## Implement guide:
 
 ```html
-<a href="https://app.diginext.site/deploy?app=..." target="_blank" rel="nofollow">
+<a href="https://app.diginext.site/deploy?workspace=<workspace-slug>&repo-url=<repo-url>" target="_blank" rel="nofollow">
   <img src="https://diginext.site/up.png" width="137" height="45" alt="deploy to diginext" />
 </a>
 ```
+
+Replace `<workspace-slug>` and `<repo-url>` with your information on [Diginext dashboard](https://apps.diginext.site).

@@ -10,88 +10,94 @@ At this stage, **Diginext** is at version `3.x.x` which I believe it’s quite s
 
 **Version `3.x.x`** has been released!
 
-## VERSION 2.x.x (Done)
+---
 
-### Server
-
-- [x]  Authentication
-    - [x]  Google sign-in
-    - [x]  JWT
-    - [x]  Setup new workspace
-    - [x]  Workspace API access token
-    - [x]  Show access token when login with CLI
-    - [x]  Logout
-    - [x]  RBAC
-- [x]  Dashboard
-- [x]  Deployments
-    - [x]  Build
-        - [x]  Start
-        - [x]  Stop
-    - [x]  Deploy
-        - [x]  From source code repo
-        - [x]  From a build
-        - [x]  Print deploy error/crash
-        - [x]  Preview prerelease
-        - [x]  Roll out production release
-    - [x]  Projects & apps
-        - [x]  Manage Projects
-        - [x]  Manage Apps
-        - [x]  Manage deploy environments
-        - [x]  Manage environment variables
-    - [x]  Releases
-    - [x]  Builds
-        - [x]  Build Logs
-        - [x]  Build Real-time Logs
-    - [x]  Take down
-- [x]  Frameworks
-    - [x]  CRUD
-    - [x]  Seed first framework data when start a new server
-- [x]  Git Providers
-    - [x]  Bitbucket
-    - [x]  Github
-- [x]  Infrastructure
-    - [x]  Cloud Providers
-        - [x]  Google Cloud
-        - [x]  Digital Ocean
-        - [x]  Custom (bare-metal K8S)
-        - [x]  Seed first data
-    - [x]  Clusters
-        - [x]  Google Cloud Kubernetes Cluster
-        - [x]  Digital Ocean Kubernetes Cluster
-        - [x]  Bare-metal Kubernetes Cluster (Custom Cluster)
-        - [x]  Check NGINX & cert-manager installation
-        - [x]  Restrict info to member
-    - [x]  Container Registry
-        - [x]  Google Container Registry
-        - [x]  DigitalOcean Registry
-        - [x]  Docker Registry
-        - [x]  Restrict info to member
-- [x]  Workspace
-    - [x]  Users
-        - [x]  Invite members
-    - [x]  Roles & permisions
-    - [x]  Settings
-        - [x]  Restrict API_TOKEN info to member
-        - [x]  API access token
-        - [x]  Private/public workspace
-- [x]  Open API (Swagger)
-
-### CLI
-
-- [x]  Project & app
-    - [x]  `dx dotenv dowload`
-    - [x]  `dx dotenv upload`
-- [x]  Cluster helper command
-    - [x]  Connect
-- [x]  Container registry helper command
-    - [x]  Connect
-    - [x]  Create imagePullSecret
-- [x]  Git command enhancement
-    - [x]  Github
-    - [x]  Bitbucket
-- [x]  kubectl command enhancement
-    - [x]  Set env variables
-    - [x]  Set image to deployment
+<details>
+    <summary>VERSION 2.x.x (Done)</summary>
+    <div>
+        <details>
+            <summary>Server</summary>
+            <div>- [x]  Authentication
+            - [x]  Google sign-in
+            - [x]  JWT
+            - [x]  Setup new workspace
+            - [x]  Workspace API access token
+            - [x]  Show access token when login with CLI
+            - [x]  Logout
+            - [x]  RBAC
+        - [x]  Dashboard
+        - [x]  Deployments
+            - [x]  Build
+                - [x]  Start
+                - [x]  Stop
+            - [x]  Deploy
+                - [x]  From source code repo
+                - [x]  From a build
+                - [x]  Print deploy error/crash
+                - [x]  Preview prerelease
+                - [x]  Roll out production release
+            - [x]  Projects & apps
+                - [x]  Manage Projects
+                - [x]  Manage Apps
+                - [x]  Manage deploy environments
+                - [x]  Manage environment variables
+            - [x]  Releases
+            - [x]  Builds
+                - [x]  Build Logs
+                - [x]  Build Real-time Logs
+            - [x]  Take down
+        - [x]  Frameworks
+            - [x]  CRUD
+            - [x]  Seed first framework data when start a new server
+        - [x]  Git Providers
+            - [x]  Bitbucket
+            - [x]  Github
+        - [x]  Infrastructure
+            - [x]  Cloud Providers
+                - [x]  Google Cloud
+                - [x]  Digital Ocean
+                - [x]  Custom (bare-metal K8S)
+                - [x]  Seed first data
+            - [x]  Clusters
+                - [x]  Google Cloud Kubernetes Cluster
+                - [x]  Digital Ocean Kubernetes Cluster
+                - [x]  Bare-metal Kubernetes Cluster (Custom Cluster)
+                - [x]  Check NGINX & cert-manager installation
+                - [x]  Restrict info to member
+            - [x]  Container Registry
+                - [x]  Google Container Registry
+                - [x]  DigitalOcean Registry
+                - [x]  Docker Registry
+                - [x]  Restrict info to member
+        - [x]  Workspace
+            - [x]  Users
+                - [x]  Invite members
+            - [x]  Roles & permisions
+            - [x]  Settings
+                - [x]  Restrict API_TOKEN info to member
+                - [x]  API access token
+                - [x]  Private/public workspace
+        - [x]  Open API (Swagger)</div>
+        </details>
+        <details>
+            <summary>CLI</summary>
+            <div>- [x]  Project & app
+            - [x]  `dx dotenv dowload`
+            - [x]  `dx dotenv upload`
+        - [x]  Cluster helper command
+            - [x]  Connect
+        - [x]  Container registry helper command
+            - [x]  Connect
+            - [x]  Create imagePullSecret
+        - [x]  Git command enhancement
+            - [x]  Github
+            - [x]  Bitbucket
+        - [x]  kubectl command enhancement
+            - [x]  Set env variables
+            - [x]  Set image to deployment</div>
+        </details>
+    </div>
+</details>
 
 ## VERSION 3.x.x (In progress)
 
