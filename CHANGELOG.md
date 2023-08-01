@@ -1,3 +1,10 @@
+# [1.0.0-beta.5](https://github.com/digitopvn/diginext-docs/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2023-08-01)
+
+
+### Bug Fixes
+
+* **config:** docs and blog repo path ([020cbad](https://github.com/digitopvn/diginext-docs/commit/020cbadf0bd8902558aef05b788c8a8a2c8cf2f2))
+
 # [1.0.0-beta.4](https://github.com/digitopvn/diginext-docs/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2023-08-01)
 
 
