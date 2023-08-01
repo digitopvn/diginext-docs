@@ -41,13 +41,13 @@ const config = {
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl: "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+					editUrl: "https://github.com/digitopvn/diginext-docs/tree/main/",
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl: "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+					editUrl: "https://github.com/digitopvn/diginext-docs/tree/main/",
 				},
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
@@ -59,6 +59,9 @@ const config = {
 	themeConfig:
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
+			colorMode: {
+				defaultMode: "dark"
+			},
 			// Replace with your project's social card
 			image: "img/docusaurus-social-card.jpg",
 			navbar: {
@@ -72,7 +75,7 @@ const config = {
 						type: "docSidebar",
 						sidebarId: "tutorialSidebar",
 						position: "left",
-						label: "Tutorial",
+						label: "Getting Started",
 					},
 					{ to: "/blog", label: "Blog", position: "left" },
 					{
@@ -99,15 +102,15 @@ const config = {
 						items: [
 							{
 								label: "Stack Overflow",
-								href: "https://stackoverflow.com/questions/tagged/docusaurus",
+								href: "https://stackoverflow.com/questions/tagged/diginext",
 							},
 							{
 								label: "Discord",
-								href: "https://discordapp.com/invite/docusaurus",
+								href: "https://discord.gg/xMuW5pN2Kn",
 							},
 							{
 								label: "Twitter",
-								href: "https://twitter.com/docusaurus",
+								href: "https://twitter.com/goon_nguyen",
 							},
 						],
 					},
@@ -120,7 +123,7 @@ const config = {
 							},
 							{
 								label: "GitHub",
-								href: "https://github.com/facebook/docusaurus",
+								href: "https://github.com/digitopvn/diginext",
 							},
 						],
 					},

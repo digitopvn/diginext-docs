@@ -1,0 +1,12 @@
+# STAGE #1 - Run
+
+FROM nginx:alpine-slim
+
+WORKDIR /app
+
+# COPY --from=builder /app/build .
+COPY build /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/nginx.conf
+
+# CMD ["npm", "start"]
+# CMD ["npm", "run", "serve"]

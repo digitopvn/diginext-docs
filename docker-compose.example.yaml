@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+    diginext-docs:
+        image: "digitop/diginext-docs:latest"
+        container_name: diginext-docs
+        working_dir: /app/
+        ports:
+            - "3001:3001"
+        restart: unless-stopped
+        environment:
+            - PORT=3001
+            - BASE_URL=http://localhost:3001
