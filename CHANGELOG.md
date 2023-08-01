@@ -1,3 +1,10 @@
+# [1.0.0-beta.6](https://github.com/digitopvn/diginext-docs/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2023-08-01)
+
+
+### Bug Fixes
+
+* **quick start,security,what,manual install:** aside to info ([d56cf2a](https://github.com/digitopvn/diginext-docs/commit/d56cf2a2adda4f5090f148408adb449fb5bfe62b))
+
 # [1.0.0-beta.5](https://github.com/digitopvn/diginext-docs/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2023-08-01)
 
 
