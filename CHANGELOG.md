@@ -1,3 +1,10 @@
+# [1.0.0-beta.4](https://github.com/digitopvn/diginext-docs/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2023-08-01)
+
+
+### Bug Fixes
+
+* **contributing,quick start,deploy env,cli,workspace,pr:** add more docs ([fdf455f](https://github.com/digitopvn/diginext-docs/commit/fdf455fd6bd3a2e766a95e7e4baa81a763b5671f))
+
 # [1.0.0-beta.3](https://github.com/digitopvn/diginext-docs/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2023-08-01)
 
 
