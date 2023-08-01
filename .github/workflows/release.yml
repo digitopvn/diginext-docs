@@ -4,7 +4,7 @@ name: Release Workflow
 on:
   push:
     branches:
-      - main
+      # - main
       - beta
 
 # ENVIRONMENT VARIABLES

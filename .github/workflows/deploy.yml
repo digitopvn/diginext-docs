@@ -4,7 +4,8 @@ name: Deploy Workflow
 on:
   push:
     branches:
-      - deploy/*
+      # - deploy/*
+      - main
 
 # ENVIRONMENT VARIABLES
 env:
@@ -104,7 +105,7 @@ jobs:
       - name: Deploy to Diginext
         uses: digitopvn/diginext-actions@v0
         with:
-          dx_version: 3.21.2-prerelease.6
+          dx_version: 3.21.2-prerelease.7
           workspace_url: https://topgroup-v2.diginext.site
           api_key: ${{ secrets.DX_API_KEY }}
           cluster: digitop-cluster
