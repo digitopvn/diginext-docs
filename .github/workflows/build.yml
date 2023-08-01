@@ -1,4 +1,4 @@
-name: Build & Test Workflow
+name: Test Workflow
 
 # TRIGGERS
 on:
@@ -10,6 +10,8 @@ on:
       - "!main"         # exclude "main"
       - "!beta"         # exclude "beta"
       - "!prerelease"   # exclude "prerelease"
+      - "!deploy"       # exclude "deploy"
+      - "!deploy/*"     # exclude "deploy/*"
 
 # ENVIRONMENT VARIABLES
 env:
@@ -64,6 +66,9 @@ jobs:
 
       - name: Install package dependencies
         run: pnpm install --no-frozen-lockfile
+
+      # - name: Typecheck
+      #   run: pnpm check-types
 
       - name: Run build
         env:

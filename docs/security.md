@@ -12,11 +12,11 @@ For simple installation, we usually want to spin up the build server with **Dock
 
 For your information, Docker Engine requires deamonset to build your image, therefore you need to run the container as `root` user with `privileged` mode & also mount `/var/run/docker.sock` volume into it. And that is **a bad idea** since it would lead to security risks (if you don't know this, [read here](https://www.trendmicro.com/en_us/research/19/l/why-running-a-privileged-container-in-docker-is-a-bad-idea.html)).
 
-<aside>
-👉 **Short explaination**
-*The owner of the docker `/var/run/docker.sock` is `root` of the host where the container is running, with default group membership to `docker` group. That's why mounting `var/run/docker.sock` inside another container gives you root privileges since now you can do anything that a `root` user with group membership of `docker` can.*
+:::info
+### **Short explaination**
+👉 *The owner of the docker `/var/run/docker.sock` is `root` of the host where the container is running, with default group membership to `docker` group. That's why mounting `var/run/docker.sock` inside another container gives you root privileges since now you can do anything that a `root` user with group membership of `docker` can.*
 
-</aside>
+:::
 
 On the other hand, [Podman](https://podman.io/) is a **daemonless container engine** for developing, managing, and running OCI Containers. Containers can either be run as `root` or in `rootless` mode. Podman also has similar commands with Docker, so it would be simpler to implement into **Diginext**.
 
@@ -30,10 +30,12 @@ There is a bit of a tradeoff when using Podman instead of Docker as a builder - 
 
 ## Disclaimers
 
-Although I do understand this security issue clearly, after many hours and attempts, I still haven't had any success running the build server with PODMAN on Kubernetes at `rootless` mode.
+### For Kubernetes deployment [example](/docs/installation/server-with-kubernetes)
+
+Although I do understand this security issue clearly, after many hours and attempts, I still haven't had any success running the server with PODMAN on Kubernetes at `rootless` mode.
 
 :::info
-🔎 This is what I’ve tried: ****[How to use Podman inside of Kubernetes](https://www.redhat.com/sysadmin/podman-inside-kubernetes)****
+🔎 This is what I’ve tried: **[How to use Podman inside of Kubernetes](https://www.redhat.com/sysadmin/podman-inside-kubernetes)**
 
 :::
 

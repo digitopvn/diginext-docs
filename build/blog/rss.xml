@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Diginext Docs Blog</title>
+        <link>https://docs.diginext.site/blog</link>
+        <description>Diginext Docs Blog</description>
+        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://docs.diginext.site/blog/welcome</link>
+            <guid>https://docs.diginext.site/blog/welcome</guid>
+            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Woohoo, we've just spinned up the documentation & blog! It's powered by the amazing Docusaurus blogging features.]]></description>
+            <content:encoded><![CDATA[<p>Woohoo, we've just spinned up the documentation &amp; blog! It's powered by the amazing <a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a>.</p><p><img loading="lazy" alt="diginext banner" src="/assets/images/dx-banner-78659f9557365be44b3736492cb4023d.png" width="920" height="500" class="img_Ytbv"></p><p>More useful articles are going to be published here, stay tuned!</p>]]></content:encoded>
+            <category>welcome</category>
+            <category>hello</category>
+            <category>diginext</category>
+        </item>
+    </channel>
+</rss>
