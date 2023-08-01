@@ -53,9 +53,15 @@ spec:
           image: digitop/diginext-cli:latest
           ports:
             - containerPort: 6969
+          # Security for PODMAN to run in rootless mode
           securityContext:
+            privileged: true
             runAsUser: 1000
             runAsGroup: 1000
+          # Required for PODMAN to run (kubectl apply -f 05-podman-fuse-device-plugin.yaml)
+          resources:
+            limits:
+              github.com/fuse: 1
           env:
             - name: PORT
               value: "6969"
@@ -108,7 +114,6 @@ metadata:
   name: dx-svc
   namespace: dx-server
 spec:
-  # type: NodePort
   ports:
     - port: 6969
   selector:
