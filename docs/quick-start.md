@@ -86,10 +86,10 @@ dx deploy
 
 By default, it will deploy your app to the `development` environment.
 
-<aside>
+:::info
 👉 Learn more about app’s [deploy environment](/docs/deployment/deploy-environment) here.
 
-</aside>
+:::
 
 Since this is the first time you deploy this app, you will need to answer a few questions, such as: *which container registry provider to store your app image, which cluster you want your app to be deployed on, which port of this app is using,…*
 
@@ -154,10 +154,10 @@ To roll out this prerelease app to production, there are 2 ways:
     `https://hello-world-web-app-ayx1.prod.diginext.site`
     
 
-<aside>
+:::info
 👉 Learn how to use your own domain for production environment here.
 
-</aside>
+:::
 
 ## Monitoring
 

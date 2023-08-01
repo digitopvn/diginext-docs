@@ -31,10 +31,10 @@ Here is the list of dependencies which you need to install on your server:
 
 Diginext Server needs a database to store all of the cloud resources & activities, I used MongoDB, so you have to.
 
-<aside>
+:::info
 👉 Install MongoDB: https://www.mongodb.com/docs/manual/installation/
 
-</aside>
+:::
 
 Well, if you don’t want to install the MongoDB, there are plenty of managed-MongoDB service options available out there for you:
 

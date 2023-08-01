@@ -15,10 +15,10 @@ Pushing developers to learn it even harder (and cruel, their life is already rea
 > *Focus on building apps, shipping fast, and shinning, and leave your cloud infrastructure to Diginext.*
 > 
 
-<aside>
+:::info
 👉 `dx` also means ***Developer Experience***, and this is our number one goal - create the best experience for developers.
 
-</aside>
+:::
 
 ## *“Make coding great again”*
 

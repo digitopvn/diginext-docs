@@ -32,17 +32,17 @@ There is a bit of a tradeoff when using Podman instead of Docker as a builder - 
 
 Although I do understand this security issue clearly, after many hours and attempts, I still haven't had any success running the build server with PODMAN on Kubernetes at `rootless` mode.
 
-<aside>
+:::info
 🔎 This is what I’ve tried: ****[How to use Podman inside of Kubernetes](https://www.redhat.com/sysadmin/podman-inside-kubernetes)****
 
-</aside>
+:::
 
 In the current Kubernetes example, I still need `priviledged: true` is set in the YAML file, but don’t worry, you’re still safe, just don’t remove `runAsUser: 1000` setting.
 
-<aside>
+:::info
 👉 Wanna learn more why? Read [here](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/).
 
-</aside>
+:::
 
 ## Examples
 
