@@ -104,8 +104,8 @@ jobs:
       - name: Deploy to Diginext
         uses: digitopvn/diginext-actions@v0
         with:
-          dx_version: 3.21.2-prerelease.5
-          workspace_url: https://topgroup.diginext.site
+          dx_version: 3.21.2-prerelease.6
+          workspace_url: https://topgroup-v2.diginext.site
           api_key: ${{ secrets.DX_API_KEY }}
           cluster: digitop-cluster
           registry: digitopdockerhub
