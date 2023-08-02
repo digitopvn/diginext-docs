@@ -37,6 +37,10 @@ const config = {
 			"classic",
 			/** @type {import('@docusaurus/preset-classic').Options} */
 			({
+				gtag: {
+					trackingID: 'G-LJ4FNCFJS1',
+					anonymizeIP: true,
+				},
 				docs: {
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
@@ -52,6 +56,12 @@ const config = {
 				theme: {
 					customCss: require.resolve("./src/css/custom.css"),
 				},
+				sitemap: {
+					changefreq: 'weekly',
+					priority: 0.5,
+					ignorePatterns: ['/tags/**'],
+					filename: 'sitemap.xml',
+				},
 			}),
 		],
 	],
@@ -63,7 +73,8 @@ const config = {
 				defaultMode: "dark"
 			},
 			// Replace with your project's social card
-			image: "img/docusaurus-social-card.jpg",
+			image: "img/dx-social-card.png",
+			metadata: [{ name: 'keywords', content: 'diginext,deploy,dx,dockerize,free hosting,cloud,resources,platform,database,blog' },],
 			navbar: {
 				title: "Diginext Docs",
 				logo: {
