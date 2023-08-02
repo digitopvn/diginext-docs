@@ -25,12 +25,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Download build artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: build-artifact
-          path: build
-
       - name: Deploy to Diginext
         uses: digitopvn/diginext-actions@v0
         with:
