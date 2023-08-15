@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdiginext=self.webpackChunkdiginext||[]).push([[8898],{1054:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/diginext","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

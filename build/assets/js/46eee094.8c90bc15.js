@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdiginext=self.webpackChunkdiginext||[]).push([[5265],{6187:i=>{i.exports=JSON.parse('{"title":"Contributing","slug":"/category/contributing","permalink":"/docs/category/contributing","navigation":{"previous":{"title":"Roadmap","permalink":"/docs/roadmap"},"next":{"title":"Overview","permalink":"/docs/contributing/"}}}')}}]);

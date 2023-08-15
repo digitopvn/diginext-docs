@@ -4,26 +4,35 @@ sidebar_position: 1
 
 # CLI Usage
 
-## Documentation
-
-[CLI Commands & Subcommands](/docs/cli/cli-docs)
-
 ## Usage
 
 ```yaml
-dx [commands] [subcommands] [--flags]
+dx [commands] [subcommands] [--options]
 ```
 
 ### Examples
 
-```bash
 - Start a Diginext server:
+	```bash
 	$ export MONGODB_CONNECTION_STRING=...
 	$ dx server up
+	```
 
 - Login to Diginext server:
+	```bash
+	$ dx login https://apps.diginext.site
+	```
+	```bash
 	$ dx login <workspace-dashboard-url>
-```
+	```
+
+---
+
+## CLI Commands
+
+- [CLI Commands & Subcommands](/docs/cli/cli-docs)
+
+---
 
 ### Learn more
 
