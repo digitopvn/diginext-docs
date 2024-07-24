@@ -42,4 +42,4 @@ jobs:
         if: always()
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
-          title: "[DOCS.DXUP.DEV] Version ${{ env.LATEST_TAG }} has been deployed!"
+          title: "[DOCS.DXUP.DEV] Deploy version ${{ env.LATEST_TAG }}"

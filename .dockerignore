@@ -2,7 +2,6 @@ node_modules
 yarn.lock
 .next
 .yarn
-pnpm-lock.yaml
 
 .git/
 .gitignore
