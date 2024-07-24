@@ -40,8 +40,8 @@ Check out this ***“Blue Green Deployment”*** flow:
 This is the main different of production environment with the other environments, think about it like a **previewed version** of your production app. Take a look at the comparison below:
 
 | Prerelease Environment | Production Environment |
-| --- | --- |
-| • New build
+| ---------------------- | ---------------------- |
+| • New build            |
 • Same Kubernetes cluster
 • Same Kubernetes namespace
 • Same environment variables 
@@ -64,7 +64,7 @@ So basically the `prerelease` environment is the same with `production` environm
 
 1. **Cluster**: the Kubernetes cluster which your app will be deployed to
 2. **Namespace**: the namespace in the Kubernetes cluster which your app will be deployed to (most of the time it’s a slug of the parent project, unless you changed it)
-3. **Domain**: the domain to access your app (it could be Diginext generated domain or your own domain)
+3. **Domain**: the domain to access your app (it could be DXUP generated domain or your own domain)
 4. **SSL Issuer**: the SSL issuer for your domain (most of the time it should be Let’s Encrypts, unless to change it)
 5. **Container Registry**: where you store the container image of your application.
 6. **Replicas**: how many instances your app would be scaled to after deployments (on “development” environment, it’s always 1)
@@ -81,7 +81,7 @@ So basically the `prerelease` environment is the same with `production` environm
 
 ## Builds
 
-Builds in Diginext are similar to the container images of your app, just with some additional metadata information of the source code, build date, build environment and the author.
+Builds in DXUP are similar to the container images of your app, just with some additional metadata information of the source code, build date, build environment and the author.
 
 ### Statuses
 

@@ -4,7 +4,7 @@ sidebar_position: 11
 
 # Roadmap
 
-At this stage, **Diginext** is at version `3.x.x` which I believe it’s quite stable, the next minor releases will be mostly bug fixes and small features.
+At this stage, **DXUP** is at version `3.x.x` which I believe it’s quite stable, the next minor releases will be mostly bug fixes and small features.
 
 ### Update (April 20, 2023)
 
@@ -111,7 +111,7 @@ At this stage, **Diginext** is at version `3.x.x` which I believe it’s quite s
     - [x]  Change build number to `version + incremental integer` (instead of datetime as current)
     - [x]  Not all projects have `package.json`
 - [ ]  Security
-    - [ ]  Scan & improve security of Diginext
+    - [ ]  Scan & improve security of DXUP
     - [ ]  Consider integrate:
         - [ ]  https://socket.dev/
         - [ ]  https://www.sonarsource.com/
@@ -138,7 +138,7 @@ At this stage, **Diginext** is at version `3.x.x` which I believe it’s quite s
     - [x]  Password sign-in
     - [ ]  User profile
     - [ ]  Service Account authentication
-    - [ ]  `Deploy to Diginext` button *(in progress)*
+    - [ ]  `Deploy to DXUP` button *(in progress)*
     - [ ]  Search `CMD + K`
 - [ ]  Dashboard with summary charts & statistics
     - [x]  General
@@ -212,7 +212,7 @@ At this stage, **Diginext** is at version `3.x.x` which I believe it’s quite s
         - [ ]  Support Gitlab
         - [ ]  Integrate Webhooks API (for auto deploy on git “push” event)
     - [ ]  Container Registry
-        - [ ]  Diginext Container Registry
+        - [ ]  DXUP Container Registry
         - [ ]  Github Container Registry
         - [ ]  Migrate GCR to Google Artifact Registry (GAR)
     - [ ]  Clusters
@@ -222,7 +222,7 @@ At this stage, **Diginext** is at version `3.x.x` which I believe it’s quite s
         - [ ]  Cluster apps (install with **`helm`** or **`kubectl`**)
             - [ ]  CRUD
         - [ ]  Cluster App Marketplace: a collection of workloads that can be installed to your clusters on the flight (for example, databases, ingress, API gateways, log collectors,…)
-            - [ ]  Collections (Diginext Site CRUD API)
+            - [ ]  Collections (DXUP Site CRUD API)
     - [ ]  Cron Job
         - [ ]  CRUD cronjob *(in progress)*
         - [ ]  Select API in `swagger.json`
@@ -387,7 +387,7 @@ At this stage, **Diginext** is at version `3.x.x` which I believe it’s quite s
 
 # Next major versions
 
-I have planned to add many more features to Diginext. The following is my schedule for the next major versions:
+I have planned to add many more features to DXUP. The following is my schedule for the next major versions:
 
 *(Nothing will be guaranteed, some will be re-scheduled, some will be added, even some will be removed, depends on how important it is to the community, I will be updating this page regularly, so please check back later if there are any features that concern you)*
 

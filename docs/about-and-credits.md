@@ -24,7 +24,7 @@ After more than 6 years of adopting Kubernetes for my clients, partners, and my 
 
 Successfully managing Kubernetes clusters requires a deep understanding of so many concepts, definitions, and practices involved. With so much to consider, it can be difficult for developers to know how to deploy apps in the most effective way.
 
-That’s why I built a simple deployment tool… and then it has been envolved to **Diginext** now.
+That’s why I built a simple deployment tool… and then it has been envolved to **DXUP** now.
 
 ## My ambition
 

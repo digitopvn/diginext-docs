@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: "Diginext Docs",
+	title: "DXUP Docs",
 	tagline: "A developer-focused platform for app deployment & centralized cloud resource management.",
 	favicon: "img/favicon.ico",
 
@@ -19,7 +19,7 @@ const config = {
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
 	organizationName: "DIGITOPVN", // Usually your GitHub org/user name.
-	projectName: "Diginext Docs", // Usually your repo name.
+	projectName: "DXUP Docs", // Usually your repo name.
 
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
@@ -76,9 +76,9 @@ const config = {
 			image: "img/dx-social-card.png",
 			metadata: [{ name: 'keywords', content: 'diginext,deploy,dx,dockerize,free hosting,cloud,resources,platform,database,blog' },],
 			navbar: {
-				title: "Diginext Docs",
+				title: "DXUP Docs",
 				logo: {
-					alt: "Diginext Logo",
+					alt: "DXUP Logo",
 					src: "img/logo.svg",
 				},
 				items: [
@@ -139,7 +139,7 @@ const config = {
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} Diginext, Inc. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} DXUP, Inc. Built with Docusaurus.`,
 			},
 			prism: {
 				theme: lightCodeTheme,

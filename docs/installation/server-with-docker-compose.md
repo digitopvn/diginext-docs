@@ -4,9 +4,9 @@ sidebar_position: 1
 
 # Server - With Docker Compose
 
-For simple installation, you usually like to spin up the Diginext build server with Docker / Docker Compose. 
+For simple installation, you usually like to spin up the DXUP build server with Docker / Docker Compose. 
 
-**Diginext Build Server** provides 2 popular container engines - **Docker & Podman** - to help you build your container apps.
+**DXUP Build Server** provides 2 popular container engines - **Docker & Podman** - to help you build your container apps.
 
 ## Using Docker Engine as the builder
 
@@ -91,7 +91,7 @@ Click on the link and check it out.
 > *Podman-in-Docker*
 > 
 
-You can use the `docker-compose.example-podman.yaml` template which I provided in the repository, notice the differences in environment variables (`BUILDER=podman`) and some **security & capability limits** for the Diginext container:
+You can use the `docker-compose.example-podman.yaml` template which I provided in the repository, notice the differences in environment variables (`BUILDER=podman`) and some **security & capability limits** for the DXUP container:
 
 ```yaml
 version: "3"

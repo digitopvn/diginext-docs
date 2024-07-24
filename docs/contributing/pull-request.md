@@ -33,14 +33,14 @@ The core team is monitoring for pull requests. We will review your pull request 
 6. Ensure the UI change passes `npm run test-image`，Run `npm run test-image -- -u` to update UI snapshots and commit these changes as well (if there are any updates), **UI test base on [Docker](https://docs.docker.com/get-docker/), need download the corresponding installation according to the platform**
 7. Make sure your code lints (npm run lint). Tip: Lint runs automatically when you `git commit` (Use [Git Hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)).
 
-### Sending a Pull Request to **Diginext Workspace Dashboard**:
+### Sending a Pull Request to **DXUP Workspace Dashboard**:
 
 The source code of Workspace Dashboard is located at [this repo](https://github.com/digitopvn/diginext-admin).
 
-- **If it's a bugfix pull request**, after it's merged, the core team will release a patch release for that as soon as possible, then you only need to reinstall Diginext (DX) or (update the new build if you are using Docker/Kubernetes) get the latest patch release.
-- **If it's a feature pull request**, after it's merged, the core team will release a minor release, then you need raise another pull request to [Diginext](https://github.com/digitopvn/diginext/) to update dependencies, document and TypeScript interfaces (if needed).
+- **If it's a bugfix pull request**, after it's merged, the core team will release a patch release for that as soon as possible, then you only need to reinstall DXUP (DX) or (update the new build if you are using Docker/Kubernetes) get the latest patch release.
+- **If it's a feature pull request**, after it's merged, the core team will release a minor release, then you need raise another pull request to [DXUP](https://github.com/digitopvn/diginext/) to update dependencies, document and TypeScript interfaces (if needed).
 
-### Sending a Pull Request to **Diginext Documentation**:
+### Sending a Pull Request to **DXUP Documentation**:
 
-The source code of Diginext Documentation is located at [this repo](https://github.com/digitopvn/diginext-docs).
+The source code of DXUP Documentation is located at [this repo](https://github.com/digitopvn/diginext-docs).
 

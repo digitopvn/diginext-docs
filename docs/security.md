@@ -4,7 +4,7 @@ sidebar_position: 9
 
 # Security
 
-Diginext uses **Podman & Docker** container engine under the hood to build your applications.
+DXUP uses **Podman & Docker** container engine under the hood to build your applications.
 
 ## Why PODMAN over DOCKER?
 
@@ -18,7 +18,7 @@ For your information, Docker Engine requires deamonset to build your image, ther
 
 :::
 
-On the other hand, [Podman](https://podman.io/) is a **daemonless container engine** for developing, managing, and running OCI Containers. Containers can either be run as `root` or in `rootless` mode. Podman also has similar commands with Docker, so it would be simpler to implement into **Diginext**.
+On the other hand, [Podman](https://podman.io/) is a **daemonless container engine** for developing, managing, and running OCI Containers. Containers can either be run as `root` or in `rootless` mode. Podman also has similar commands with Docker, so it would be simpler to implement into **DXUP**.
 
 **Therefore, I would like to recommend using `BUILDER=podman` in the environment variables to use Podman as the container builder, instead of `docker`.**
 

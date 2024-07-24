@@ -6,7 +6,7 @@ sidebar_position: 5
 
 ### System packages
 
-If you’re on Linux OS and want the build server to start up every reboot, you might want to enable Diginext server as a system service (with `systemctl` for example).
+If you’re on Linux OS and want the build server to start up every reboot, you might want to enable DXUP server as a system service (with `systemctl` for example).
 
 ### **TLS & Reverse Proxy**
 

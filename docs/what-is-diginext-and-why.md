@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# What is Diginext & why?
+# What is DXUP & why?
 
 First thing first.
 
@@ -12,7 +12,7 @@ Pushing developers to learn it even harder (and cruel, their life is already rea
 
 ***Developers should not be frustrated by deploying apps to the infrastructure or bothering DevOps engineers for help. They should fully focus on developing apps and not need to understand servers, domains, or other infrastructure-related tasks.***
 
-> *Focus on building apps, shipping fast, and shinning, and leave your cloud infrastructure to Diginext.*
+> *Focus on building apps, shipping fast, and shinning, and leave your cloud infrastructure to DXUP.*
 > 
 
 :::info
@@ -73,4 +73,4 @@ Pushing developers to learn it even harder (and cruel, their life is already rea
 
 ### Still not convinced?
 
-Check this: [“My personal reason about why I started developing Diginext”](about-and-credits.md)
+Check this: [“My personal reason about why I started developing DXUP”](about-and-credits.md)

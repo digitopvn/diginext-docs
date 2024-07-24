@@ -16,7 +16,7 @@ npm i @topgroup/diginext --location=global
 
 That's it!
 
-## Connect with Diginext server
+## Connect with DXUP server
 
 To interact with your workspace’s resources, such as deploying apps for example, you will need to connect your CLI with the server with this command:
 

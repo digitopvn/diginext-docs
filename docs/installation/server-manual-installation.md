@@ -29,7 +29,7 @@ Here is the list of dependencies which you need to install on your server:
 
 ## Database
 
-Diginext Server needs a database to store all of the cloud resources & activities, I used MongoDB, so you have to.
+DXUP Server needs a database to store all of the cloud resources & activities, I used MongoDB, so you have to.
 
 :::info
 👉 Install MongoDB: https://www.mongodb.com/docs/manual/installation/
@@ -65,7 +65,7 @@ yarn global add @topgroup/diginext
 
 ## Configuration
 
-The only required configuration for Diginext server is `MONGODB_CONNECTION_STRING` environment variable, copy your MongoDB connection string and set it up with:
+The only required configuration for DXUP server is `MONGODB_CONNECTION_STRING` environment variable, copy your MongoDB connection string and set it up with:
 
 ```bash
 export MONGODB_CONNECTION_STRING=<your-mongodb-connection-string>
@@ -98,7 +98,7 @@ Now you can turn your build server on with:
 dx server up
 ```
 
-By default, the Diginext server runs on `http://127.0.0.1:6969`
+By default, the DXUP server runs on `http://127.0.0.1:6969`
 
 You can set up domain access and SSL certificates on your own so that your team can connect to your server via the CLI or access the admin dashboard. However, this is beyond the scope of this manual.
 

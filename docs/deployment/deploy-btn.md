@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Deploy to Diginext button
+# Deploy to DXUP button
 
 ## Button UI
 
@@ -16,4 +16,4 @@ sidebar_position: 2
 </a>
 ```
 
-Replace `<workspace-slug>` and `<repo-url>` with your information on [Diginext dashboard](https://apps.diginext.site).
+Replace `<workspace-slug>` and `<repo-url>` with your information on [DXUP dashboard](https://apps.diginext.site).

@@ -14,12 +14,12 @@ Don’t see your Kubernetes cluster provider? Check out my [Roadmap](https://www
 
 ## Add a GKE cluster to your workspace
 
-Diginext needs authorization with a Gcloud Service Account to access your Kubernetes cluster.
+DXUP needs authorization with a Gcloud Service Account to access your Kubernetes cluster.
 
 ## Add a DOK cluster to your workspace
 
-In order to deploy apps to DOK clusters, Diginext requires access to it with Digital Ocean API access token.
+In order to deploy apps to DOK clusters, DXUP requires access to it with Digital Ocean API access token.
 
 ## Add a bare metal Kubernetes cluster to your workspace
 
-In Diginext, the only way to access a bare metal K8S cluster is through the **kubeconfig**.
+In DXUP, the only way to access a bare metal K8S cluster is through the **kubeconfig**.

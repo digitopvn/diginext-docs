@@ -53,7 +53,7 @@ Dx allow you to create new web application from the boilerplate (just like **cre
 dx new
 ```
 
-Then follow the form to create your app, it will help setting up some pre-configurations, and register the app with your Diginext server for deployment later on.
+Then follow the form to create your app, it will help setting up some pre-configurations, and register the app with your DXUP server for deployment later on.
 
 - **Project name**: enter your project name, for example “My First Project”
 - **App name**: since a project can have multiple apps, such as “frontend”, “backend” or “api”, let take “frontend” for example.
@@ -67,7 +67,7 @@ Then follow the form to create your app, it will help setting up some pre-config
 
 ## Initialize your application
 
-Sometime you just want to register your source code with the Diginext server to deploy it, instead of creating a new one. That’s when you need to use the `init` command:
+Sometime you just want to register your source code with the DXUP server to deploy it, instead of creating a new one. That’s when you need to use the `init` command:
 
 ```bash
 cd /path/to/your/source

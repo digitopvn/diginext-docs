@@ -6,10 +6,10 @@ sidebar_position: 2
 
 ## Introduction
 
-The **Diginext Command Line Interface (CLI)** (`dx`) lets you interact with your Diginext workspace from the command line, allowing you to:
+The **DXUP Command Line Interface (CLI)** (`dx`) lets you interact with your DXUP workspace from the command line, allowing you to:
 
-- Create new Diginext projects from the Terminal
-- Link a local project directory to an existing Diginext project
+- Create new DXUP projects from the Terminal
+- Link a local project directory to an existing DXUP project
 - Monitor status & logs of remote applications
 - Utilize AI technology to improve developer experience (DX) & productivity
 - And more!
@@ -182,7 +182,7 @@ A command helper of `kubectl` to improve developer experience (DX) when managing
 
 ## `build`
 
-Request Diginext server to build and push current working application to the container registry.
+Request DXUP server to build and push current working application to the container registry.
 
 ---
 
@@ -194,7 +194,7 @@ Build and run current working application on your computer using Docker.
 
 ## `up`
 
-Request the Diginext server to build and deploy current working application to target deploy environment.
+Request the DXUP server to build and deploy current working application to target deploy environment.
 
 Alias: `deploy`
 
@@ -287,7 +287,7 @@ Update the `dx` CLI to latest version.
 
 ## `version`
 
-Print the current version of Diginext
+Print the current version of DXUP
 
 - `dx -v`
 - `dx version`
