@@ -80,7 +80,7 @@ jobs:
   deploy:
     name: Deploy to [docs.dxup.dev]
     runs-on: ubuntu-latest
-    # needs: [build]
+    needs: [build]
     if: always() && !cancelled() && !failure() && contains(github.ref, 'main')
     steps:
       - name: Checkout
