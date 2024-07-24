@@ -24,14 +24,22 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
+          
+      - name: Get a latest release tag
+        run: echo LATEST_TAG=$(git describe --tags `git rev-list --tags --max-count=1`) >> $GITHUB_ENV
 
-      - name: Deploy to DXUP
-        uses: digitopvn/diginext-actions@v0
+      - name: Deploy with DXUP
+        uses: 'digitopvn/diginext-actions@v1.10'
         with:
-          dx_version: 3.21.2-prerelease.7
-          workspace_url: https://topgroup-v2.diginext.site
-          api_key: ${{ secrets.DX_API_KEY }}
-          cluster: digitop-cluster
-          registry: digitopdockerhub
-          deploy_env: prod
-          port: "3001"
+            api_key: ${{ secrets.DX_API_KEY }}
+            cluster: dxupprod
+            registry: digitopdockerhub
+            deploy_env: prod
+            port: 3001
+            tail: true
+
+      - uses: sarisia/actions-status-discord@v1
+        if: always()
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
+          title: "[DOCS.DXUP.DEV] Version ${{ env.LATEST_TAG }} has been deployed!"
