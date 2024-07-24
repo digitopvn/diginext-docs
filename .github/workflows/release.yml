@@ -207,7 +207,7 @@ jobs:
   #       with:
   #         fetch-depth: 0
 
-  #     - name: Deploy to Diginext
+  #     - name: Deploy to DXUP
   #       uses: digitopvn/diginext-actions@v0
   #       env:
   #         CLUSTER: topgroup-k3s

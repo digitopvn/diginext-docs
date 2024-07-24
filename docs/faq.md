@@ -4,11 +4,11 @@ sidebar_position: 10
 
 # FAQ
 
-Here are the frequently asked questions about **Diginext (DX)** that you should look up before you ask in the community or create a new issue. 
+Here are the frequently asked questions about **DXUP (DX)** that you should look up before you ask in the community or create a new issue. 
 
 ---
 
-## Should I install Diginext Server on the same cluster with our apps?
+## Should I install DXUP Server on the same cluster with our apps?
 
 **NOT RECOMMEND.** Building apps is the process that sometime requires a lot of machine’s resources, especially the complex ones, if this happens, it would cause interuption of the other apps/deployments.
 
@@ -31,9 +31,9 @@ And which you should avoid to do:
 
 - Bug as feature. It will break in any other cases.
 
-## How to spell Diginext (DX) correctly?
+## How to spell DXUP (DX) correctly?
 
-- ✅  **Diginext**: Capitalized first character, for the identification name.
+- ✅  **DXUP**: Capitalized first character, for the identification name.
 - ✅  **DX** or **dx**: for the CLI name, and the top priority mission of it - `Developer Experience`.
 
 Here are some typical wrong examples:

@@ -16,7 +16,7 @@ Don’t see your container registry? Check out my [Roadmap](https://www.notion.s
 
 ## Authenticate Google Container Registry
 
-Similar with GKE authorization, to authenticate Diginext with GCR, you need a Google Cloud Service Account, if you already got one, you only need to access Google Cloud Console and assign GCR read & write permissions to it, then get back to your workspace and fulfill the form.
+Similar with GKE authorization, to authenticate DXUP with GCR, you need a Google Cloud Service Account, if you already got one, you only need to access Google Cloud Console and assign GCR read & write permissions to it, then get back to your workspace and fulfill the form.
 
 ## Authenticate Digital Ocean Container Registry
 

@@ -1,4 +1,4 @@
-# Diginext Documentation
+# DXUP Documentation
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
@@ -27,7 +27,7 @@ This command generates static content into the `build` directory and can be serv
 ### Deployment
 
 -   Using Github Actions: Create a pull request to `main` branch
--   Using Diginext: `dx up` or `dx up --prod`
+-   Using DXUP: `dx up` or `dx up --prod`
 
 ## Credits
 

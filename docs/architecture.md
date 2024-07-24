@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Architecture
 
-This document provides a high level overview of Diginext's architecture.
+This document provides a high level overview of DXUP's architecture.
 
 ## Diagram
 
@@ -19,7 +19,7 @@ is the ***developer-friendly*** tool to help you communicate with the build serv
 
 :::
 
-## Diginext Server (or Workspace Dashboard)
+## DXUP Server (or Workspace Dashboard)
 
 is where your app will be built and deployed to the destination clusters, and also is where you manage all of your cloud resources.
 
@@ -43,4 +43,4 @@ Examples:
 
 Below is what happens in the background:
 
-![Diginext_LoginAndCreateWorkspace.png](/img/Diginext_LoginAndCreateWorkspace.png)
+![DXUP_LoginAndCreateWorkspace.png](/img/DXUP_LoginAndCreateWorkspace.png)

@@ -12,13 +12,13 @@ dx [commands] [subcommands] [--options]
 
 ### Examples
 
-- Start a Diginext server:
+- Start a DXUP server:
 	```bash
 	$ export MONGODB_CONNECTION_STRING=...
 	$ dx server up
 	```
 
-- Login to Diginext server:
+- Login to DXUP server:
 	```bash
 	$ dx login https://apps.diginext.site
 	```

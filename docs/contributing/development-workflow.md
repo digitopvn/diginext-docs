@@ -8,13 +8,13 @@ sidebar_position: 3
 
 Fork these repos:
 
-- [Diginext (Server & CLI)](https://github.com/digitopvn/diginext)
-- [Diginext Dashboard (Admin UI)](https://github.com/digitopvn/diginext-admin)
-- [Diginext Documentation](https://github.com/digitopvn/diginext-docs)
+- [DXUP (Server & CLI)](https://github.com/digitopvn/diginext)
+- [DXUP Dashboard (Admin UI)](https://github.com/digitopvn/diginext-admin)
+- [DXUP Documentation](https://github.com/digitopvn/diginext-docs)
 
 # With Docker Compose
 
-The fastest way to start developing Diginext is using Docker Compose, since mostly everything (like developer tools) is pre-installed and pre-configurated inside the container images.
+The fastest way to start developing DXUP is using Docker Compose, since mostly everything (like developer tools) is pre-installed and pre-configurated inside the container images.
 
 You can use this example `docker-compose.dev.example.yaml`
 
@@ -90,11 +90,11 @@ There you go:
 > *I use `pnpm` instead of `npm` because I find it a bit faster. Therefore, I recommend that you also use `pnpm`, especially since I have set up some scripts in `package.json` that utilize `pnpm`.*
 > 
 
-## Diginext Server & CLI
+## DXUP Server & CLI
 
 After cloning `[digitopvn/diginext](https://github.com/digitopvn/diginext)`, run `npm install` to fetch its dependencies. Then, you can run several commands:
 
-1. `npm run dev` runs Diginext Server locally, the Dashboard UI should be: http://localhost:6969 
+1. `npm run dev` runs DXUP Server locally, the Dashboard UI should be: http://localhost:6969 
 2. `npm run lint` checks the code style.
 3. `npm run build` to build the TypeScript to JavaScript at `dist/` and link the current directory to global `node_modules`, so you can test your CLI commands locally.
 
@@ -114,7 +114,7 @@ After cloning `[digitopvn/diginext](https://github.com/digitopvn/diginext)`, run
 
 ## Workspace Dashboard
 
-The repository of workspace dashboard is located at `[digitopvn/diginext-admin](https://github.com/digitopvn/diginext-admin)`, clone it to your computer and place at the same level of the Diginext Server source code. 
+The repository of workspace dashboard is located at `[digitopvn/diginext-admin](https://github.com/digitopvn/diginext-admin)`, clone it to your computer and place at the same level of the DXUP Server source code. 
 
 For example:
 

@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Frameworks
 
-Developers usually don’t start a new project from scratch, instead we start from a boilerplate, a starter template, a library, or whatever you call it. In Diginext, I call it **“Framework”**.
+Developers usually don’t start a new project from scratch, instead we start from a boilerplate, a starter template, a library, or whatever you call it. In DXUP, I call it **“Framework”**.
 
 This is a collection of starter templates so you and any members of your team can start a new project from, whether it’s your own repositories, or public repositories.
 

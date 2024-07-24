@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Git Providers
 
-For now, Diginext supports 2 git providers:
+For now, DXUP supports 2 git providers:
 
 - Github
 - Bitbucket
@@ -19,21 +19,21 @@ More will come in the [next major releases](https://www.notion.so/Roadmap-6a8266
 
 ## Authenticate with your Git Providers
 
-Assuming you are familiar with Git workflow and understand SSH keys, if not, [read here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh). To pull and push to the Git repository, the keys on your machine have to match those in the Git provider's settings. The same applies to Diginext Server. In order to pull your git repositories for building container images, Diginext Server requires access to your repositories via SSH keys.
+Assuming you are familiar with Git workflow and understand SSH keys, if not, [read here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh). To pull and push to the Git repository, the keys on your machine have to match those in the Git provider's settings. The same applies to DXUP Server. In order to pull your git repositories for building container images, DXUP Server requires access to your repositories via SSH keys.
 
-### 1. Using Diginext Server auto-generated public key
+### 1. Using DXUP Server auto-generated public key
 
-Access Diginext Dashboard and navigate to “Settings” tab, you will see a PUBLIC KEY, copy and add it to your git repository settings.
-
-![Untitled](./img/Untitled.png)
-
-That’s it, Diginext Server will now has permissions to pull your repositories for building apps.
-
-### 2. Connect git providers with Diginext Server with access token
+Access DXUP Dashboard and navigate to “Settings” tab, you will see a PUBLIC KEY, copy and add it to your git repository settings.
 
 ![Untitled](./img/Untitled.png)
 
-Diginext only supports Github & Bitbucket integration at the moment, more to come in the future.
+That’s it, DXUP Server will now has permissions to pull your repositories for building apps.
+
+### 2. Connect git providers with DXUP Server with access token
+
+![Untitled](./img/Untitled.png)
+
+DXUP only supports Github & Bitbucket integration at the moment, more to come in the future.
 
 **With GITHUB:**
 

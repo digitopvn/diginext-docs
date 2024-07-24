@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Overview
 
-The following is a set of guidelines for contributing to **Diginext**. Please spend several minutes reading these guidelines before you create an issue or pull request.
+The following is a set of guidelines for contributing to **DXUP**. Please spend several minutes reading these guidelines before you create an issue or pull request.
 
 ## Architecture
 
@@ -18,7 +18,7 @@ We have adopted a [Code of Conduct](/docs/contributing/code-of-conduct) that we 
 
 ## Open Development
 
-All work on Diginext happens directly on [GitHub](https://github.com/digitopvn/diginext). Both core team members and external contributors send pull requests which go through the same review process.
+All work on DXUP happens directly on [GitHub](https://github.com/digitopvn/diginext). Both core team members and external contributors send pull requests which go through the same review process.
 
 ***Wanna give me a hand?*** 
 
@@ -45,7 +45,7 @@ Check out this article: [Pull Request](https://www.notion.so/Pull-Request-f4a5bb
 
 ## Being a Collaborator
 
-If you are an active contributor and are willing to work with Diginext in our opensource workflow, please feel free to give me a hand:
+If you are an active contributor and are willing to work with DXUP in our opensource workflow, please feel free to give me a hand:
 
 [Pull Request](https://www.notion.so/Pull-Request-f4a5bbbc6f4c46099ca73c98c9dc3bb9?pvs=21)
 

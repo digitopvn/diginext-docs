@@ -12,7 +12,7 @@ Pushing developers to learn it even harder (and cruel, their life is already rea
 
 ***Developers should not be frustrated by deploying apps to the infrastructure or bothering DevOps engineers for help. They should fully focus on developing apps and not need to understand servers, domains, or other infrastructure-related tasks.***
 
-> *Focus on building apps, shipping fast, and shinning, and leave your cloud infrastructure to Diginext.*
+> *Focus on building apps, shipping fast, and shinning, and leave your cloud infrastructure to DXUP.*
 > 
 
 :::info 
@@ -21,7 +21,7 @@ Pushing developers to learn it even harder (and cruel, their life is already rea
 
 ### *“Make coding great again”*
 
-Made for any programming languages, for projects big and small, developers should only bring their code, and **Diginext** handles the rest.
+Made for any programming languages, for projects big and small, developers should only bring their code, and **DXUP** handles the rest.
 
 ## Features
 
