@@ -80,7 +80,7 @@ jobs:
   deploy:
     name: Deploy to [docs.dxup.dev]
     runs-on: ubuntu-latest
-    # needs: [build]
+    needs: [build]
     if: always() && !cancelled() && !failure() && contains(github.ref, 'main')
     steps:
       - name: Checkout
@@ -92,7 +92,7 @@ jobs:
         run: echo LATEST_TAG=$(git describe --tags `git rev-list --tags --max-count=1`) >> $GITHUB_ENV
 
       - name: Deploy with DXUP
-        uses: 'digitopvn/diginext-actions@v1.10'
+        uses: 'digitopvn/diginext-actions@v2'
         with:
             api_key: ${{ secrets.DX_API_KEY }}
             cluster: dxupprod

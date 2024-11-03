@@ -6,6 +6,28 @@ sidebar_position: 4
 
 In this article, I will walk you through the very first experience with `dx`, let's get started!
 
+## First things first, install the CLI
+
+The package is available on [npm](https://www.npmjs.com/package/@topgroup/diginext).
+
+Install the CLI using `npm`, `pnpm`, `yarn` or `bun`:
+
+```bash
+npm install -g @topgroup/diginext
+# OR
+# pnpm install -g @topgroup/diginext
+# yarn add -g @topgroup/diginext
+# bun add -g @topgroup/diginext
+```
+
+Once installed, you can verify the installation by running:
+
+```bash
+dx --version
+# OR
+# dx -v
+```
+
 ## Sign in to your workspace
 
 To interact with your workspace’s resources, such as deploying apps to your infrastructure, you will need to connect your CLI with the server by this command:
