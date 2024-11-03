@@ -33,8 +33,11 @@ dx --version
 To interact with your workspace’s resources, such as deploying apps to your infrastructure, you will need to connect your CLI with the server by this command:
 
 ```bash
-dx login <build-server-url>
+# login to our DXUP server https://app.dxup.dev
+dx login
 
+# if you are running your own server
+dx login <build-server-url>
 # example
 dx login http://localhost:6969
 ```
@@ -52,22 +55,24 @@ You can have multiple teams and roles within your workspaces, this would let you
 
 </aside>
 
-Now let's login to our **public** workspace:
+Now let's login to your workspace on our DXUP platform:
 
 ```bash
-dx login https://hobby.diginext.site
+dx login
 ```
 
-**Notes:** this workspace is only intended for a *"hello world"* experience. Do not use it as a production server, as I cannot offer any SLA (Service Level Agreement) regarding the usage of resources. (Well, I may have one in the future, who knows, if I receive enough donations)
+It will open a new tab on your browser at [https://app.dxup.dev](https://app.dxup.dev), you can login or create new account if you don't have one.
+
+**Notes:** By default, new workspace is subscribed into `Hobby` plan, which is only intended for a *"hello world"* experience. Do not use it as a production server, as I cannot offer any SLA (Service Level Agreement) regarding the usage of resources. (Well, I may have one in the future, who knows, if I receive enough donations).
 
 <aside>
 💡 Learn more about workspaces, teams & members here
-
+[https://docs.dxup.dev/docs/category/workspace-dashboard](https://docs.dxup.dev/docs/category/workspace-dashboard)
 </aside>
 
 ## Create your first application
 
-Dx allow you to create new web application from the boilerplate (just like **create**-**react**-**app** or **create**-**t3**-**app**), I called these boilerplates “Frameworks”, you can manage these frameworks in your workspace dashboard.
+DXUP allow you to create new web application from the boilerplate (just like **create**-**react**-**app** or **create**-**t3**-**app**), I called these boilerplates as **Frameworks**, you can manage these frameworks in your workspace dashboard.
 
 ### `new` command
 
@@ -83,7 +88,7 @@ Then follow the form to create your app, it will help setting up some pre-config
 - **Framework**:
 
 <aside>
-💡 Learn more about **[Projects & apps](https://www.notion.so/Projects-Apps-3b558c33b03c4ec1993537493350b097?pvs=21)** here
+💡 Learn more about **[Projects & apps](https://docs.dxup.dev/docs/category/projects--apps)** here
 
 </aside>
 

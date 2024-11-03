@@ -18,14 +18,14 @@ Here are the frequently asked questions about **DXUP (DX)** that you should look
 
 ## Why API/commands request should be strict discussion?
 
-We are cautious when adding APIs/commands because some APIs/commands may not be abstract enough to become historical debt. For example, when there is a need to change the way of interaction, these poor abstractions may cause breaking changes. To avoid such problems, we recommend that new features be implemented through higher order APIs/commands first.
+We are cautious when adding APIs/commands because some APIs/commands may not be abstract enough to become historical debt. For example, when there is a need to change the way of interaction, these poor abstractions may cause breaking changes. To avoid such problems, we recommend that new features be implemented through higher order APIs/CLI commands first.
 
 ## How to avoid breaking change when update version?
 
 `dx` will avoid breaking change in minor & patch version. You can safe do follow things:
 
 - Official demo usage
-- FAQ suggestion. Including codesandbox sample, marked as FAQ issue
+- FAQ suggestion.
 
 And which you should avoid to do:
 
@@ -33,11 +33,12 @@ And which you should avoid to do:
 
 ## How to spell DXUP (DX) correctly?
 
-- ✅  **DXUP**: Capitalized first character, for the identification name.
-- ✅  **DX** or **dx**: for the CLI name, and the top priority mission of it - `Developer Experience`.
+- ✅  **DXUP**: Capitalized all characters, for the identification name.
+- ✅  **DX** or **dx**: for the CLI name and command, and the top priority mission of it - `Developer Experience`.
 
 Here are some typical wrong examples:
 
+- ❌  diginext - You could face this sometimes, because at first I named it as `diginext` CLI, but I found `DXUP` is more suitable for the project.
 - ❌  DigiNext
 - ❌  Digi Next
 - ❌  digi next
