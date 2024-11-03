@@ -1,3 +1,16 @@
+## [1.0.3](https://github.com/digitopvn/diginext-docs/compare/v1.0.2...v1.0.3) (2024-07-24)
+
+
+### Bug Fixes
+
+* **all:** change "diginext" to "dxup" ([ba33917](https://github.com/digitopvn/diginext-docs/commit/ba339170c1bc616e38e393b42ae66436dba5f464))
+* **architecture:** update auth flow image ([ab0feb7](https://github.com/digitopvn/diginext-docs/commit/ab0feb749ad07bf17303ca59013bd48185ef86d9))
+* **build,deploy:** update dockerfile ([0196c3a](https://github.com/digitopvn/diginext-docs/commit/0196c3a5a183a6892ec6e3ebe9d49ce13a2f3c08))
+* **dockerignore:** exclude pnpm lock file ([ff20722](https://github.com/digitopvn/diginext-docs/commit/ff20722d601fffafc09549e8504a1eb3c33fd7be))
+* **docs:** update cli docs ([443ec06](https://github.com/digitopvn/diginext-docs/commit/443ec06638560988d592279d6ff55f851510b3c3))
+* **introduction:** update dx banner ([dafebb2](https://github.com/digitopvn/diginext-docs/commit/dafebb2b3e3fe70dbe652a9bd8725d0e47e0d95a))
+* **tracking,sitemap:** add gtag and sitemap.xml ([56d9937](https://github.com/digitopvn/diginext-docs/commit/56d9937184350031be9f1edf984b89101cb2d22b))
+
 ## [1.0.2](https://github.com/digitopvn/diginext-docs/compare/v1.0.1...v1.0.2) (2023-08-01)
 
 
