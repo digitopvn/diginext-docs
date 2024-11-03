@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/digitopvn/diginext-docs/compare/v1.0.3...v1.0.4) (2024-11-03)
+
+
+### Bug Fixes
+
+* **cli:** update installation guide ([8b72a08](https://github.com/digitopvn/diginext-docs/commit/8b72a08b60186d30b6252a86aa43a0b57072401e))
+
 ## [1.0.3](https://github.com/digitopvn/diginext-docs/compare/v1.0.2...v1.0.3) (2024-07-24)
 
 
