@@ -2,7 +2,29 @@
 sidebar_position: 1
 ---
 
-# CLI Usage
+# CLI Installation & Usage
+
+## Installation
+
+The package is available on [npm](https://www.npmjs.com/package/@topgroup/diginext).
+
+Install the CLI using `npm`, `pnpm`, `yarn` or `bun`:
+
+```bash
+npm install -g @topgroup/diginext
+# OR
+# pnpm install -g @topgroup/diginext
+# yarn add -g @topgroup/diginext
+# bun add -g @topgroup/diginext
+```
+
+Once installed, you can verify the installation by running:
+
+```bash
+dx --version
+# OR
+# dx -v
+```
 
 ## Usage
 
@@ -12,19 +34,30 @@ dx [commands] [subcommands] [--options]
 
 ### Examples
 
-- Start a DXUP server:
-	```bash
-	$ export MONGODB_CONNECTION_STRING=...
-	$ dx server up
-	```
+- You can use `dx` to deploy your app to DXUP clusters:
 
-- Login to DXUP server:
-	```bash
-	$ dx login https://apps.diginext.site
-	```
-	```bash
-	$ dx login <workspace-dashboard-url>
-	```
+```bash
+# Login to DXUP
+$ dx login
+
+# Deploy your app
+$ dx up
+```
+
+- Start a DXUP server on your local machine:
+
+```bash
+$ export MONGODB_CONNECTION_STRING=...
+$ dx server up
+```
+
+- Login to your DXUP server:
+
+```bash
+$ dx login https://localhost:6969
+# OR
+$ dx login <workspace-dashboard-url>
+```
 
 ---
 
@@ -48,4 +81,4 @@ dx [commands] [subcommands] [--options]
 
 - [Container registry utilities](/docs/cli/cli-learn-registry-helper)
 
-- [Git enhancement ](/docs/cli/cli-learn-git-enhancement)
+- [Git enhancement](/docs/cli/cli-learn-git-enhancement)
