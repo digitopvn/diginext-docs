@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Git Providers
@@ -21,15 +21,7 @@ More will come in the [next major releases](https://www.notion.so/Roadmap-6a8266
 
 Assuming you are familiar with Git workflow and understand SSH keys, if not, [read here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh). To pull and push to the Git repository, the keys on your machine have to match those in the Git provider's settings. The same applies to DXUP Server. In order to pull your git repositories for building container images, DXUP Server requires access to your repositories via SSH keys.
 
-### 1. Using DXUP Server auto-generated public key
-
-Access DXUP Dashboard and navigate to “Settings” tab, you will see a PUBLIC KEY, copy and add it to your git repository settings.
-
-![Untitled](./img/Untitled.png)
-
-That’s it, DXUP Server will now has permissions to pull your repositories for building apps.
-
-### 2. Connect git providers with DXUP Server with access token
+### 1. Connect git providers with DXUP Server with access token
 
 ![Untitled](./img/Untitled.png)
 
@@ -50,3 +42,11 @@ You will need **App Password**, create one by follow [this instruction](https://
 Navigate to **“Git Providers”** tab in your workspace dashboard and click on **“Connect”** button, select **“Bitbucket”**, finish that authentication steps and you are good to go:
 
 ![Untitled](./img/Untitled.png)
+
+### 2. Using DXUP Server auto-generated public key (only for self-hosted server)
+
+Access DXUP Dashboard and navigate to “Settings” tab, you will see a PUBLIC KEY, copy and add it to your git repository settings.
+
+![Untitled](./img/Untitled.png)
+
+That’s it, DXUP Server will now has permissions to pull your repositories for building apps.

@@ -6,7 +6,7 @@ sidebar_position: 6
 
 When the builds are success, it will be converted to Releases before deploying.
 
-So Releases are quite similar to builds, with some additional information such as:
+So `Releases` are quite similar to `Builds`, with some additional information such as:
 
 - Roll out time
 - Author of the release

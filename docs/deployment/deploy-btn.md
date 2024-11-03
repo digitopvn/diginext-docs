@@ -8,7 +8,9 @@ sidebar_position: 2
 
 ![diginext-deploy-button.png](./img/diginext-deploy-button.png)
 
-## Implement guide:
+## Implement guide
+
+Add this button to your README.md file, and replace `<workspace-slug>` and `<repo-url>` with your information on [DXUP dashboard](https://apps.diginext.site).
 
 ```html
 <a href="https://app.diginext.site/deploy?workspace=<workspace-slug>&repo-url=<repo-url>" target="_blank" rel="nofollow">
