@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/digitopvn/diginext-docs/compare/v1.0.4...v1.0.5) (2024-11-03)
+
+
+### Bug Fixes
+
+* **doc:** update copy ([0000f93](https://github.com/digitopvn/diginext-docs/commit/0000f93fa8b411329ee353675afdc39a20c67a35))
+
 ## [1.0.4](https://github.com/digitopvn/diginext-docs/compare/v1.0.3...v1.0.4) (2024-11-03)
 
 
